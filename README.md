@@ -3,7 +3,7 @@
 [![PyPI - Version](https://img.shields.io/pypi/v/uEdition-Theme.svg)](https://pypi.org/project/uEdition-Theme)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/uEdition-Theme.svg)](https://pypi.org/project/uEdition-Theme)
 
-The μTheme is a minimal theme
+The μTheme is a minimal theme for the μEdition.
 -----
 
 ## Table of Contents
@@ -14,9 +14,9 @@ The μTheme is a minimal theme
 ## Installation
 
 ```console
-pip install utheme
+pip install uedition-theme
 ```
 
 ## License
 
-`utheme` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+`μTheme` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
