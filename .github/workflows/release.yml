@@ -1,0 +1,39 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  pypi:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: pypi
+      url: https://pypi.org/project/uedition-theme
+
+    permissions:
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: |
+            3.11
+
+      - name: Install Base Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-venv
+          sudo apt-get remove -y python3-packaging
+          sudo pip install hatch
+
+      - name: Build the package
+        run: |
+          hatch build
+
+      - name: Publish package distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
