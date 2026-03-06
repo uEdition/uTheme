@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "utheme"
+name = "uEditor-Theme"
 dynamic = ["version"]
 description = ''
 readme = "README.md"
@@ -32,10 +32,10 @@ Issues = "https://github.com/uEdition/uTheme/issues"
 Source = "https://github.com/uEdition/uTheme"
 
 [project.entry-points."sphinx.html_themes"]
-utheme = "utheme.theme"
+utheme = "ueditor_theme.theme"
 
 [tool.hatch.version]
-path = "utheme/__about__.py"
+path = "ueditor_theme/__about__.py"
 
 
 [tool.hatch.build.targets.sdist]
@@ -141,19 +141,19 @@ extra-dependencies = [
   "mypy>=1.0.0",
 ]
 [tool.hatch.envs.types.scripts]
-check = "mypy --install-types --non-interactive {args:utheme tests}"
+check = "mypy --install-types --non-interactive {args:ueditor_theme tests}"
 
 [tool.coverage.run]
-source_pkgs = ["utheme", "tests"]
+source_pkgs = ["ueditor_theme", "tests"]
 branch = true
 parallel = true
 omit = [
-  "utheme/__about__.py",
+  "ueditor_theme/__about__.py",
 ]
 
 [tool.coverage.paths]
-utheme = ["utheme", "*/utheme/utheme"]
-tests = ["tests", "*/utheme/tests"]
+ueditor_theme = ["ueditor_theme", "*/ueditor_theme/ueditor_theme"]
+tests = ["tests", "*/ueditor_theme/tests"]
 
 [tool.coverage.report]
 exclude_lines = [
