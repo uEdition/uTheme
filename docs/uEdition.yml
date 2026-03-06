@@ -1,0 +1,16 @@
+languages:
+- code: en
+  label: English
+  path: en
+output: site
+title:
+  en: "\u03BCTheme"
+version: '2'
+sphinx_config:
+  html_theme: "utheme"
+  extensions:
+    - myst_parser
+    - sphinx_external_toc
+    - sphinx_design
+    - uedition
+    - utheme.ext

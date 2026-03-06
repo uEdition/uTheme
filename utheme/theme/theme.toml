@@ -1,0 +1,4 @@
+[theme]
+inherit = "pydata_sphinx_theme"
+stylesheets = []
+sidebars = []
