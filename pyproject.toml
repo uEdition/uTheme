@@ -16,20 +16,20 @@ authors = [
 classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python",
-  "Programming Language :: Python :: 3.8",
-  "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = ["uEdition", "pydata-sphinx-theme", "sphinx", "sphinx_design"]
 
 [project.urls]
-Documentation = "https://github.com/Mark Hall/utheme#readme"
-Issues = "https://github.com/Mark Hall/utheme/issues"
-Source = "https://github.com/Mark Hall/utheme"
+Documentation = "https://github.com/uEdition/uTheme"
+Issues = "https://github.com/uEdition/uTheme/issues"
+Source = "https://github.com/uEdition/uTheme"
 
 [project.entry-points."sphinx.html_themes"]
 utheme = "utheme.theme"
