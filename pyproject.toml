@@ -32,10 +32,10 @@ Issues = "https://github.com/uEdition/uTheme/issues"
 Source = "https://github.com/uEdition/uTheme"
 
 [project.entry-points."sphinx.html_themes"]
-utheme = "ueditor_theme.theme"
+uedition-theme = "uedition_theme.theme"
 
 [tool.hatch.version]
-path = "ueditor_theme/__about__.py"
+path = "uedition_theme/__about__.py"
 
 
 [tool.hatch.build.targets.sdist]
@@ -141,19 +141,19 @@ extra-dependencies = [
   "mypy>=1.0.0",
 ]
 [tool.hatch.envs.types.scripts]
-check = "mypy --install-types --non-interactive {args:ueditor_theme tests}"
+check = "mypy --install-types --non-interactive {args:uedition_theme tests}"
 
 [tool.coverage.run]
-source_pkgs = ["ueditor_theme", "tests"]
+source_pkgs = ["uedition_theme", "tests"]
 branch = true
 parallel = true
 omit = [
-  "ueditor_theme/__about__.py",
+  "uedition_theme/__about__.py",
 ]
 
 [tool.coverage.paths]
-ueditor_theme = ["ueditor_theme", "*/ueditor_theme/ueditor_theme"]
-tests = ["tests", "*/ueditor_theme/tests"]
+uedition_theme = ["uedition_theme", "*/uedition_theme/uedition_theme"]
+tests = ["tests", "*/uedition_theme/tests"]
 
 [tool.coverage.report]
 exclude_lines = [

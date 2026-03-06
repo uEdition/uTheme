@@ -8,4 +8,4 @@ from pathlib import Path
 
 def setup(app):
     """Set up the μTheme."""
-    app.add_html_theme("utheme", Path(__file__).resolve().parent)
+    app.add_html_theme("uedition-theme", Path(__file__).resolve().parent)

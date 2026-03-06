@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT
 """μTheme extension setup."""
 
-from utheme.ext import video
+from uedition_theme.ext import video
 
 
 def setup(app):
