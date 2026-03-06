@@ -27,7 +27,7 @@ classifiers = [
 dependencies = ["uEdition", "pydata-sphinx-theme", "sphinx", "sphinx_design"]
 
 [project.urls]
-Documentation = "https://github.com/uEdition/uTheme"
+Documentation = "https://github.com/uEdition/uTheme#readme"
 Issues = "https://github.com/uEdition/uTheme/issues"
 Source = "https://github.com/uEdition/uTheme"
 
