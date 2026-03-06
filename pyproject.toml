@@ -37,6 +37,25 @@ utheme = "utheme.theme"
 [tool.hatch.version]
 path = "utheme/__about__.py"
 
+
+[tool.hatch.build.targets.sdist]
+artifacts = ["uedition_editor/frontend/dist/**/*"]
+exclude = [
+  ".github",
+  "docs",
+  "tests",
+  ".pre-config-config.yaml",
+]
+
+[tool.hatch.build.targets.wheel]
+artifacts = ["uedition_editor/frontend/dist/**/*"]
+exclude = [
+  ".github",
+  "docs",
+  "tests",
+  ".pre-config-config.yaml",
+]
+
 [tool.hatch.envs.default]
 extra-dependencies = ["ruff==0.9.5"]
 
