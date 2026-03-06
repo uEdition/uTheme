@@ -1,7 +1,7 @@
 # μTheme
 
-[![PyPI - Version](https://img.shields.io/pypi/v/utheme.svg)](https://pypi.org/project/utheme)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/utheme.svg)](https://pypi.org/project/utheme)
+[![PyPI - Version](https://img.shields.io/pypi/v/uEdition-Theme.svg)](https://pypi.org/project/uEdition-Theme)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/uEdition-Theme.svg)](https://pypi.org/project/uEdition-Theme)
 
 The μTheme is a minimal theme
 -----
