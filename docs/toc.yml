@@ -1,2 +1,6 @@
 format: jb-book
 root: index
+chapters:
+  - file: extensions/index
+    sections:
+      - file: extensions/room3b-video
