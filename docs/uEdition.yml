@@ -1,16 +1,15 @@
 languages:
-- code: en
-  label: English
-  path: en
+  - code: en
+    label: English
+    path: en
 output: site
 title:
-  en: "\u03BCTheme"
-version: '2'
+  en: "μTheme"
+version: "2"
 sphinx_config:
   html_theme: "uedition-theme"
   extensions:
     - myst_parser
     - sphinx_external_toc
-    - sphinx_design
     - uedition
     - uedition_theme.ext

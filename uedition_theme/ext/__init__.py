@@ -8,4 +8,5 @@ from uedition_theme.ext import video
 
 def setup(app):
     """Set up the uTheme extension."""
+    app.setup_extension("sphinx_design")
     video.setup(app)
